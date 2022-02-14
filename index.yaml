@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  ixia-c:
+  - apiVersion: v2
+    appVersion: 0.0.1-2399
+    created: "2022-02-14T04:38:33.366097614Z"
+    description: 'description: ixia-c Packet Generation Services '
+    digest: 5186f1651c0953fefccd76587046ecb05fc75855eb47c1f58ee6d42f40cac249
+    name: ixia-c
+    type: application
+    urls:
+    - https://shramroy.github.io/helm/ixia-c-0.0.1.tgz
+    version: 0.0.1
   my-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-14T02:33:23.084119376Z"
+    created: "2022-02-14T04:38:33.366722869Z"
     description: A Helm chart for Kubernetes
     digest: 13e8797ba7b5ead68d862a2773ed739fb49c0789c4655c535573e19ec9600a25
     name: my-chart
@@ -11,4 +22,15 @@ entries:
     urls:
     - https://shramroy.github.io/helm/my-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-14T02:33:23.082313882Z"
+  te:
+  - apiVersion: v2
+    appVersion: 1.4.0.15
+    created: "2022-02-14T04:38:33.367333914Z"
+    description: A Helm chart for Traffic Engine
+    digest: aef96503da33c6a438702fd2fa3b31d94f5f3d5b8012f57ee3978174541f4b37
+    name: te
+    type: application
+    urls:
+    - https://shramroy.github.io/helm/te-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-02-14T04:38:33.365303724Z"
